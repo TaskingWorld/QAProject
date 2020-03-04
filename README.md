@@ -11,3 +11,5 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 ### [Documentación](https://taskingworld.github.io/QAProject/)
 
 
+[Guias y recursos](https://github.com/alexrodriguezlop/IV-Project/edit/master/D/Git.md)
+
