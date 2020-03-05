@@ -6,7 +6,7 @@
 El proyecto pretende aportar una solución que permita almacenar actividades.
 Será un backend que permita almacenar actividades (con un tiempo u hora, estado, o inscripción) y que permita a usuarios inscribirse en las mismas y a los administradores conocer su estado.
 
-**Lenguaje elegido:** Python
+**Lenguaje elegido:** Python.
 
 ### [Documentación](https://taskingworld.github.io/QAProject/)
 
