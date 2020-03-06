@@ -1,0 +1,5 @@
+{
+    "lenguaje" : "Pyton",
+    "build" : "Makefile",
+    "clase" : "./actividad/core.py"
+}
