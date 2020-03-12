@@ -8,6 +8,7 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 
 **Lenguaje elegido:** Python
 
+
 ### [Documentación](https://taskingworld.github.io/QAProject/)
 
 
