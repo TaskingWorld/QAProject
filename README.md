@@ -10,7 +10,8 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 
 
 ### [Documentación](https://taskingworld.github.io/QAProject/)
-
+#### [Guía de pytest](https://openanalytics.es/tutorial-de-pytest-que-es-instalar-fijar-afirmar/)
+#### [Guía Travis](https://booleanbite.com/web/desarrollo-dirigido-por-pruebas/)
 
 [Guias y recursos](https://github.com/alexrodriguezlop/IV-Project/edit/master/D/Git.md)
 
