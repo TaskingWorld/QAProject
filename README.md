@@ -1,7 +1,7 @@
 # Proyecto del [curso de programación para QA -2ª edición](https://jj.github.io/curso-tdd/) (DEVQAGRX) 
 [![DevQAGRX](https://img.shields.io/badge/DevQAGRX-blueviolet?style=for-the-badge&logo=Git)](https://github.com/JJ/curso-tdd)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) 
-
+[![Build Status](https://travis-ci.org/TaskingWorld/QAProject.svg?branch=master)](https://travis-ci.org/TaskingWorld/QAProject)
 
 El proyecto pretende aportar una solución que permita almacenar actividades.
 Será un backend que permita almacenar actividades (con un tiempo u hora, estado, o inscripción) y que permita a usuarios inscribirse en las mismas y a los administradores conocer su estado.
