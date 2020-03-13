@@ -1,17 +1,15 @@
 import pytest
 
-from QAProject.actividad.core import Actividad
-from QAProject.persona.asistente import Asistente
 from QAProject.persona.mentor import Mentor
 from QAProject.estado import Estado
+from QAProject.actividad.core import Actividad
 
-def test_consulta_actividad(asistente: Asistente, actividad: Actividad):
-    estado = asistente.consultar_actividad(actividad)
-    assert isinstance(estado, Estado)
+@pytest.fixture
+def prepara_datos():
+    mentor = Mentor('Pepe', 'Moreno',1)
+    actividad = Actividad('Curso',mentor,[],Estado.ABIERTA,20,mentor)
+    return [mentor, actividad]
 
-
-mentor = Mentor('Pepe', 'Moreno',1)
-asistente = Asistente('Antonio', 'Jaimez', 2)
-
-actividad = Actividad('Curso',mentor,[asistente],Estado.ABIERTA,20,mentor)
-
+def test_consulta_actividad(prepara_datos):
+    estado = Estado.ABIERTA
+    assert prepara_datos[1].estado_curso()==estado

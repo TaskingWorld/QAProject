@@ -1,9 +1,9 @@
 import datetime
 from typing import List
 
-from estado import Estado
-from persona.mentor import Mentor
-from persona.asistente import Asistente
+from QAProject.estado import Estado
+from QAProject.persona.mentor import Mentor
+from QAProject.persona.asistente import Asistente
 
 class Actividad(object):
 

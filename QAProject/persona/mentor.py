@@ -1,4 +1,4 @@
-from persona.core import Persona
+from QAProject.persona.core import Persona
 
 class Mentor(Persona):
 
