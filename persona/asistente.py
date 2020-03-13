@@ -1,4 +1,5 @@
 from persona.core import Persona
+from actividad.core import Actividad
 
 class Asistente(Persona):
 
@@ -6,8 +7,9 @@ class Asistente(Persona):
         super().__init__(nombre, apellidos, id)
 
 
-    def consultar_actividad(self):
-        pass
+    def consultar_actividad(self, actividad: Actividad):
+        return actividad.estado_curso()
+        
 
     def inscribirme(self): #HU2
         pass

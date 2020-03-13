@@ -23,6 +23,9 @@ class Actividad(object):
     def cambiar_estado(self, estado: Estado):
         self.estado = estado
 
+    def estado_curso(self):
+        return self.estado
+        
     def inscribir(self, asistente: Asistente):
         if (Estado(self.estado) == Estado.COMPLETA):
             print('No se puede inscribir, no hay plazas')
