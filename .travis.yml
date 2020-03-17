@@ -4,4 +4,9 @@ python:
 
 install:
   - pip install -r requeriments.txt
-script: pytest
+
+script: 
+  - pytest --cov=./
+
+after_success:
+  - codecov
