@@ -1,5 +1,6 @@
 {
     "lenguaje" : "Pyton",
     "build" : "makefile",
-    "clase" : "actividad/core.py"
+    "clase" : "QAProject/actividad/core.py",
+    "test":"QAProject/tests/test_evento.py"
 }
