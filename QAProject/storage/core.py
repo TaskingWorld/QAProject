@@ -9,6 +9,8 @@ class Storage(object):
         else:
             self.db = TinyDB(dbname + '.json')
 
+        self.events = self.db.table('events')
+
     def save(self, data: dict):
         self.db.insert(data)
 
@@ -17,3 +19,10 @@ class Storage(object):
 
     def drop(self):
         self.db.purge()
+
+    def save_event(self, data: dict):
+        self.db.insert(data)
+
+    def get_events(self):
+        return self.events.all()
+        

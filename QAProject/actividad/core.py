@@ -25,7 +25,10 @@ class Actividad(object):
 
     def estado_curso(self):
         return self.estado
-        
+    
+    def fecha_evento(self):
+        return self.fecha
+
     def inscribir(self, asistente: Asistente):
         if (Estado(self.estado) == Estado.COMPLETA):
             print('No se puede inscribir, no hay plazas')
@@ -42,7 +45,6 @@ class Actividad(object):
         else:
             self.asistentes.remove(asistente)
 
-
-        
+     
 
     
