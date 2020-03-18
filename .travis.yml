@@ -6,7 +6,7 @@ install:
   - pip install -r requeriments.txt
 
 script: 
-  - pytest --cov=QAProject tests/
+  - pytest --cov=tests/
 
 after_success:
   - codecov
