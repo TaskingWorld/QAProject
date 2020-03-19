@@ -16,5 +16,16 @@ def prepara_datos():
 
 def test_consulta_actividad(prepara_datos):
     with mock.patch.object(TinyStorage, 'get_activities', return_value=prepara_datos[1]):
-        database = TinyStorage('prueba.json')
-        assert database.get_activities() == prepara_datos[1]
+        
+        
+        class Test(object):
+            def __init__(self, database: Storage):
+                self.database = database
+            
+            def consulta_datos(self):
+                return self.database.get_activities()
+    
+        my_database = TinyStorage('test')
+        test = Test(my_database)
+
+        assert test.consulta_datos() == prepara_datos[1]
