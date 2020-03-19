@@ -20,6 +20,7 @@ class Actividad(object):
         self.mentor = mentor
         self.asistentes = asistentes
 
+
     def cambiar_estado(self, estado: Estado):
         self.estado = estado
 
