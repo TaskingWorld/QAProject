@@ -10,6 +10,28 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 **Lenguaje elegido:** Python
 
 
+**Hito1 (HU):**
+1. Creación de historias de usuario
+ -ISSUE por cada una de ellas
+ 
+2. Creación de MILESTONE (Agrupación de ISSUES relacionados)
+3. 	
+3. Creación de estructura de directorios 
+
+
+
+**Hito2:**
+1. Identificación de entidades y dominios
+2. Resolución de ISSUES
+3. Makefile
+
+**Hito3: (TEST Travis):**
+
+**Hito4 (CODECOV)**
+
+**Hito5 (TEST módulo externo)**
+
+
 ### [Documentación](https://taskingworld.github.io/QAProject/)
 #### [Guía de pytest](https://openanalytics.es/tutorial-de-pytest-que-es-instalar-fijar-afirmar/)
 #### [Guía Travis](https://booleanbite.com/web/desarrollo-dirigido-por-pruebas/)
