@@ -12,9 +12,9 @@ def prepara_datos():
     # Save a couple of test activities
     mentor = Mentor('Pepe', 'Moreno',1)
     taller = Actividad('Taller',mentor,[],Estado.ABIERTA,5,mentor)
-    return taller
+    return [mentor, taller]
 
 def test_consulta_actividad(prepara_datos):
-    with mock.patch.object(Storage, 'get_activities', return_value=prepara_datos):
+    with mock.patch.object(TinyStorage, 'get_activities', return_value=prepara_datos[1]):
         database = TinyStorage('prueba.json')
-        assert database.get_activities() == prepara_datos
+        assert database.get_activities() == prepara_datos[1]
