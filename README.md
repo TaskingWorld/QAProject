@@ -9,6 +9,7 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 
 **Lenguaje elegido:** Python
 
+## Hitos:
 
 **Hito1 (HU):**
 1. Creación de historias de usuario
@@ -32,9 +33,22 @@ Será un backend que permita almacenar actividades (con un tiempo u hora, estado
 **Hito5 (TEST módulo externo)**
 
 
-### [Documentación](https://taskingworld.github.io/QAProject/)
-#### [Guía de pytest](https://openanalytics.es/tutorial-de-pytest-que-es-instalar-fijar-afirmar/)
-#### [Guía Travis](https://booleanbite.com/web/desarrollo-dirigido-por-pruebas/)
+## Participantes:
 
-[Guias y recursos](https://github.com/alexrodriguezlop/IV-Project/edit/master/D/Git.md)
+- [Alejandro Rodríguez López](https://www.linkedin.com/in/alexrodriguezlop/)
+
+- [Antonio Jáimez Jiménez](https://www.linkedin.com/in/antonio-j%C3%A1imez-jim%C3%A9nez-655219151/)
+
+- [Fco Javier Merchán Martin](https://www.linkedin.com/in/fco-merchan-b337b411b)
+
+
+## Enlaces de Ínteres:
+
+ [Documentación](https://taskingworld.github.io/QAProject/)
+ 
+ [Guía de pytest](https://openanalytics.es/tutorial-de-pytest-que-es-instalar-fijar-afirmar/)
+ 
+ [Guía Travis](https://booleanbite.com/web/desarrollo-dirigido-por-pruebas/)
+ 
+ [Guias y recursos](https://github.com/alexrodriguezlop/IV-Project/edit/master/D/Git.md)
 
